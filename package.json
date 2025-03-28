@@ -1,0 +1,33 @@
+{
+  "name": "naujas-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  
+    "numbers":"node --watch ./numbers.js",
+    "for":"node --watch ./for.js",
+    "marksaverage":"node --watch ./marksaverage.js",
+    "ND":"node --watch ./ND.js",
+    "string":"node --watch ./string.js",
+    "index":"node --watch ./index.js",
+    "multiply":"node --watch ./multiply.js",
+    "boolean":"node --watch ./boolean.js",
+    "digitcount":"node --watch ./digitcount.js",
+    "typeoff":"node --watch ./typeoff.js",
+    "intervalcount":"node --watch ./intervalcount.js",
+    "intervalsum":"node --watch ./intervalsum.js",
+    "stringreverse":"node --watch ./stringreverse.js",
+    
+        "if":"node --watch ./if.js",
+    "array":"node --watch ./array.js",
+    "function":"node --watch ./function.js",
+    "interval":"node --watch ./interval.js",
+    "praktic":"node --watch ./praktic.js",
+    "task":"node --watch ./task.js",
+    "multi-table":"node --watch ./multi-table.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
