@@ -101,3 +101,24 @@ console.log(Math.random())
 console.log(Math.random())
 
 for (let i=0; i<15; i++) {console.log(Math.random())}; 
+
+
+// [13...149]
+
+// Norimas skaicius is intervalo
+
+
+function randomNumber(min,max) 
+ { return Math.floor(Math.random() * (max - min +1) +min); }
+    
+ console.log(randomNumber(1,10))
+ console.log(randomNumber(1,10))
+ console.log(randomNumber(1,10))
+
+
+
+const counts = [0,0,0,0,0,0,0,0,0,]
+ for (let i=0; i<100000; i++) {console.log(Math.random(0,9))}; 
+const index = randomNumber(0,9)
+counts[index]++
+console.log(counts)

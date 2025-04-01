@@ -9,6 +9,7 @@
     "marksaverage":"node --watch ./marksaverage.js",
     "ND":"node --watch ./ND.js",
     "string":"node --watch ./string.js",
+    "method-string":"node --watch ./method-string.js",
     "index":"node --watch ./index.js",
     "multiply":"node --watch ./multiply.js",
     "boolean":"node --watch ./boolean.js",
