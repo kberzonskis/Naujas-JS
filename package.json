@@ -17,6 +17,9 @@
     "intervalcount":"node --watch ./intervalcount.js",
     "intervalsum":"node --watch ./intervalsum.js",
     "stringreverse":"node --watch ./stringreverse.js",
+    "objeckts":"node --watch ./objeckts.js",
+    "undefined":"node --watch ./undefined.js",
+    "math":"node --watch ./math.js",
     
         "if":"node --watch ./if.js",
     "array":"node --watch ./array.js",

@@ -386,13 +386,36 @@ const r = 3
 function didesnis(a,b) { if (a>b) {return (a)} else if (a<b) {return (b)} }
 console.log(didesnis(z,r))
 
-/*4. Sukurkite funkciją, kuri patikrintų, ar eilutėje yra žodis „JavaScript“.*/
+/*4. Sukurkite funkciją, kuri patikrintų, ar eilutėje yra žodis „JavaScript“.*
   
 const Java = [JavaScript] 
 
 function zodis([DJ]) { if [ZodiJava] return  ${"yra zodis JavaScript" } else return  ${"nera zodzio JavaScript" } 
     
 }
+ 
+
+/
 
 
+/*
+7. Sukurkite funkciją, kuri apskaičiuotų stačiakampio plotą.*/ 
 
+const kr1 = 5 
+const kr2 = 9 
+
+function plotas(q,w) {const sum = (q * w); {return sum} }
+
+    
+
+console.log(plotas(kr1,kr2))
+
+/* b. Padaryti su keliais skaičių tipo kintamaisiais*/ 
+
+
+const kr12 = [2,5]
+
+function plotasAR([x,g])  { const suma = plotasAR([x]) *  plotasAR([g]); {return suma} }
+
+    
+console.log(plotas(kr12))
