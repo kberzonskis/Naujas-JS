@@ -410,12 +410,77 @@ function plotas(q,w) {const sum = (q * w); {return sum} }
 
 console.log(plotas(kr1,kr2))
 
+
 /* b. Padaryti su keliais skaičių tipo kintamaisiais*/ 
 
 
-const kr12 = [2,5]
+const kr12 = [2, 36]
+console.log(kr12[1]);
 
-function plotasAR([x,g])  { const suma = plotasAR([x]) *  plotasAR([g]); {return suma} }
 
+function plotas(q,w) {const sum = (q * w); {return sum} }
+console.log(plotas(kr12[0],kr12[1]))
+
+/* 1. Sukurkite funkciją, skirtą patikrinti, ar skaičius yra teigiamas. */ 
+const ar = 2
+const po = ar % 1; 
+console.log(po)
+
+// 8. Sukurkite funkciją, kuri tikrina, ar skaičius dalijasi iš 3.
+
+let dalmuo = 3 
+let bskaicius = 9.9
+const dalyba = bskaicius/dalmuo;
+console.log(dalyba);
+
+
+function Ardalijasi3(dali) {  if (dali%1===0 ) {return ("dalijasi")}   else {return ("nesidalija")} }
     
-console.log(plotas(kr12))
+console.log(Ardalijasi3(dalyba))
+
+
+
+
+let dalmuo1 = 3 
+let bskaicius2 = 15
+const dalyba2 = bskaicius/dalmuo;
+
+
+
+function Ardalijasi3(da,al) { let hum = da/al; if (hum%1===0 ) {return ("dalijasi")}   else {return ("nesidalija")} }
+    
+console.log(Ardalijasi3(bskaicius2,dalmuo1))
+
+
+
+
+// 9. Sukurkite funkciją, kuri tikrina, ar teksto tipo kintamasis prasideda raide 'a'. 
+
+console.log('Vasara'. includes('V'))
+
+/*
+
+let  pavasaris 
+
+function Raides(Zodziai) { if (Zodziai.includes('a')) {return "yra a"} else {return "nera a"}
+     
+}
+
+console.log(Raides(pavasaris)); */
+
+
+
+
+      const zodis = "ruduo";
+     let raidez = 'a';
+        
+     
+     function raidziupatikra(betkokszodis, betkokiaraide) {
+            
+
+        if (betkokszodis.indexOf(betkokiaraide) != -1) {return ("yra raide A")
+} 
+         else {return ("Žodis neturi raidės a");
+        }} 
+
+       console.log(raidziupatikra(zodis, raidez))

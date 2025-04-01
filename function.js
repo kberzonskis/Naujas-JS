@@ -142,7 +142,7 @@ console.log(da);
 /* 1. Sukurkite funkciją, skirtą patikrinti, ar skaičius yra teigiamas. */ 
 console.clear()
 
-const ar = 3.111
+const ar = 3
 const b = ar % 1; 
 console.log(b)
 
