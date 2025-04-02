@@ -567,3 +567,27 @@ for (let i =1; i <=10  ; i++) {console.log(i*i*i)}
 let sk = 7
 
 for (let i =1; i <=10  ; i++) {console.log(sk*i)}
+
+// 8. Atspausdinkite nuo 1 iki 5 žvaigždučių (*) seriją (pvz., *, **, *** ir t. t.). 
+
+ let zx = "*"
+for (let i =1; i < zx ; i++) {console.log(zx)}
+
+
+console.log(`----------`)
+
+const names = ['Jonas', 'Maryte', 'Petras', 'Ona'];
+
+for (let i = 0; i < names.length; i++) {
+    const s = `Studento vardas yra ${names[i]}.`;
+    console.log(s);
+}
+
+
+let namies = '';
+for (let s = 1;  s <=5; s++) 
+ {namies = namies + '*'
+ console.log(namies);
+}
+   
+
