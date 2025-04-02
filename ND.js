@@ -471,16 +471,38 @@ console.log(Raides(pavasaris)); */
 
 
 
-      const zodis = "ruduo";
+      const zodis = "raduo";
      let raidez = 'a';
         
      
      function raidziupatikra(betkokszodis, betkokiaraide) {
             
 
-        if (betkokszodis.indexOf(betkokiaraide) != -1) {return ("yra raide A")
+        if (betkokszodis.indexOf(betkokiaraide) != -1) {return ("yra raide 'A'")
 } 
          else {return ("Žodis neturi raidės a");
         }} 
 
        console.log(raidziupatikra(zodis, raidez))
+
+
+console.clear()
+
+
+       const text1 = 'arbata';
+const firstSymbol1 = text1[0];
+
+function raide (pirmoji, raide) {
+    let pirmaRaide = true;
+
+    
+    if ( pirmaRaide === text1[0]) {
+        console.log(`prasideda 'a'`);
+    }
+    if ( pirmaRaide !== text[0]) {
+        console.log(`neprasideda 'a'`);
+        pirmaRaide = false;
+    }
+}
+
+
