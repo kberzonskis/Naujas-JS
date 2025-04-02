@@ -489,20 +489,81 @@ console.log(Raides(pavasaris)); */
 console.clear()
 
 
-       const text1 = 'arbata';
+       const text1 = 'rbata';
 const firstSymbol1 = text1[0];
 
-function raide (pirmoji, raide) {
-    let pirmaRaide = true;
+function raide (TTT) {
+    
 
     
-    if ( pirmaRaide === text1[0]) {
-        console.log(`prasideda 'a'`);
+    if ( "a" === text1[0]) {
+        return (`prasideda 'a'`);
     }
-    if ( pirmaRaide !== text[0]) {
-        console.log(`neprasideda 'a'`);
-        pirmaRaide = false;
+    else  {
+        return(`neprasideda 'a'`);
+       
     }
 }
 
+console.log(raide(text1));
 
+
+
+/* 1. Spausdinkite skaičius nuo 1 iki 10 naudodami for ciklą.
+2. Spausdinkite skaičius nuo 10 iki 1 atvirkštine tvarka naudodami for ciklą.
+3. Spausdinkite kiekvieną lyginį skaičių nuo 0 iki 20 naudodami for ciklą.
+4. Spausdinkite kiekvieną nelyginį skaičių nuo 0 iki 20 naudodami for ciklą.
+5. Išspausdinkite pirmuosius 10 skaičių kvadratų (1^2, 2^2, 3^2 ir t. t.).
+6. Išspausdinkite pirmuosius 10 skaičių kubų (1^3, 2^3, 3^3 ir t. t.).
+7. Atspausdinkite 7 daugybos lentelę (7 × 1, 7 × 2 ir t. t.).
+8. Atspausdinkite nuo 1 iki 5 žvaigždučių (*) seriją (pvz., *, **, *** ir t. t.).
+9. Atspausdinkite atvirkštinę eigą su žvaigždutėmis 5 eilutėse (pvz., *****, ****, *** ir t. t.).
+10. Spausdinti skaičius nuo 1 iki 50, kurie dalijasi iš 3.
+11. Spausdinti skaičius nuo 1 iki 50 imtinai, kurie dalijasi iš 5.
+12. Spausdinti skaičius nuo 1 iki 100, kurie dalijasi ir iš 3, ir iš 5.
+13. Sukurkite for ciklą, kuris penkis kartus išspausdintų "Hello, World!".
+Sunkesnės užduotys:
+1. Sukurkite for ciklą, kuris spausdina skaičius nuo 1 iki 100, tačiau kiekvieną skaičių, kuris
+dalijasi iš 4, reikia pakeisti žodžiu „Fizz“.
+2. Spausdinkite skaičius nuo 1 iki 100, bet skaičius, kurie dalijasi iš 3, pakeiskite "Fizz",
+skaičius, kurie dalijasi iš 5, - "Buzz", o skaičius, kurie dalijasi iš abiejų, - "FizzBuzz".
+3. Spausdinkite pirmuosius 10 skaičių Fibonačio sekoje.
+4. Spausdinkite skaičius nuo 1 iki 20 ir prie kiekvieno lyginio skaičiaus spausdinkite
+"Even", o prie kiekvieno nelyginio - "Odd".
+5. Spausdinti bet kurio pasirinkto skaičiaus daugybos lentelę.
+6. Sukurkite for ciklą, kuris spausdina skaičius nuo 1 iki 30, bet tik tuos, kurie dalijasi iš 2
+arba 3.
+7. Sukurkite for ciklą, kad patikrintumėte, ar skaičius yra pirminis, ir išspausdintumėte
+pranešimą.
+8. Spausdinkite pirmuosius 10 pirminių skaičių, naudodami for ciklą ir if sąlygas.
+9. Išspausdinkite visų lyginių skaičių nuo 1 iki 100 sumą */ 
+
+
+1. 
+for (let i = 1; i<= 10; i++) {console.log(i)} 
+
+2. 
+for (let i =10; i >=0  ; i--) {console.log(i)}
+
+console.log(`----------`)
+
+3. //Spausdinkite kiekvieną lyginį skaičių nuo 0 iki 20 naudodami for ciklą.
+for (let i =2; i <=20  ; i+=2) {console.log(i)}
+
+console.log(`----------`)
+
+4. // Spausdinkite kiekvieną nelyginį skaičių nuo 0 iki 20 naudodami for ciklą.
+for (let i =2; i <=20  ; i+=3) { console.log(i)}
+
+
+5. // Išspausdinkite pirmuosius 10 skaičių kvadratų (1^2, 2^2, 3^2 ir t. t.). 
+
+
+for (let i =1; i <=10  ; i++) {console.log(i*i)}
+for (let i =1; i <=10  ; i++) {console.log(i*i*i)}
+
+
+7. // Atspausdinkite 7 daugybos lentelę (7 × 1, 7 × 2 ir t. t.).
+let sk = 7
+
+for (let i =1; i <=10  ; i++) {console.log(sk*i)}

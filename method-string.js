@@ -71,4 +71,81 @@ console.log('Pomidoras'.indexOf('o',2))
 
 
 
+// repeat 
 
+console.log('a');
+console.log('aaaaaaaaaaaaaaaaa');
+console.log('aa'  );
+const symbol = 'labas'
+const megaSymbol = symbol.repeat(5)
+console.log(symbol)
+console.log(megaSymbol)
+
+
+// replace 
+
+const summer = 'vasara'.replace('a','-') 
+console.log(summer) 
+const summer2 = 'vasara'.replace('a','-').replace('a','-')
+console.log(summer2) 
+
+
+const cloud = 'debeselis'.replace('e', '***')
+console.log(cloud);
+const cloudy = 'debeselis'.replace('sel', '***')
+console.log(cloudy
+);
+const cloudys = 'debeselis'.replace('sel', '*'.repeat(5))
+console.log(cloudys
+);
+
+
+// to Uppercase 
+console.log('labas'.toUpperCase());
+
+console.log('LABAS, 8G8G5T'.toLowerCase());
+
+// slice 
+console.log('pomidoras'.slice());
+console.log('pomidoras'.slice(5));
+console.log('pomidoras'.slice(0,3));
+console.log('pomidoras'.slice(0,6));
+console.log('pomidoras'.slice(4,6));
+console.log('pomidoras'.slice(-2));
+console.log('pomidoras'.slice(0,-2));
+
+// trim 
+
+console.log(`"${'pomidoras'.trim()}"`);  
+console.log(`"${'pomidoras            '.trim()}"`);  
+console.log(`"${'     pomidoras        '.trim()}"`);  
+console.log(`"${'     pomidoras        '.trimEnd()}"`);  
+console.log(`"${'     pomidoras        '.trimStart()}"`);  
+
+// split 
+
+const t1 = "zodis"; 
+const t1Parts = t1.split()
+const t1Parts2 = t1.split('o')
+const t1Parts3 = t1.split('d')
+console.log(t1Parts)
+console.log(t1Parts2)
+console.log(t1Parts3)
+
+const t2 = 'kultivatorius' 
+const t2Parts = t2.split('t') 
+console.log(t2Parts);
+
+console.log('ana'.split('a'));
+console.log('vasara'.split('a'));
+
+
+// charCodeAt 
+
+console.log('a'.charCodeAt(0))
+console.log('A'.charCodeAt(0))
+if ('a' < 'A') {console.log('daugiau')}
+
+else {console.log('maziau')}
+
+console.log('A'+ 'a'.charCodeAt(0))

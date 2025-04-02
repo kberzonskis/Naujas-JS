@@ -45,7 +45,7 @@ console.log((10+20)/100)
 
 for (let i =5; i<5; k += 0.2 ) { console.log(k)} 
 
-console.clear
+
 
 for (let i = 0; i < 5; i++) {
     console.log('a) number:', i);
@@ -121,7 +121,7 @@ for (let i = 1; i <= 10; i++) {
     console.log(`${n} * ${i} = ${n * i}`);
 }
 
-console.clear();
+
 
 const marks = [10, 2, 8, 4, 6];
 

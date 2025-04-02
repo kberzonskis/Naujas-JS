@@ -34,6 +34,7 @@ let count = 0;
     for (let i= start; i <= end; i++)  if (i%divider ===0) {count++; }}   
 
 return `skaiciu intervale tarp "NUO" ir "IKI", besidalijanciu be liekanos is ${start} ir ${end}, besidalijanciu be liekanos is ${divider} yra kiekis vienetai yra ${count} vienetai `;}  
+console.log(contains);
 
 
 console.log (intervalCount(0,11,3)); 
