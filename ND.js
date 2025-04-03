@@ -659,10 +659,28 @@ for (let i = 0; i <5 ; i++) {console.log('hello, World')}
 // /* 1. Sukurkite for ciklą, kuris spausdina skaičius nuo 1 iki 100, tačiau kiekvieną skaičių, 
 // kurisdalijasi iš 4, reikia pakeisti žodžiu „Fizz“. */
 
-for (let i = 1; i <100; i++)  if (i%4===0) 
+console.log("----------------");
+
+
+for (let i = 1; i <=100; i++)  if (i%4===0) 
      {console.log('fizz')}  else {(
 console.log(i))}; 
 
+console.log("----------------");
 
 
 
+// 2. Spausdinkite skaičius nuo 1 iki 100, bet skaičius, kurie dalijasi iš 3, pakeiskite "Fizz", 
+// skaičius, kurie dalijasi iš 5, - "Buzz", o skaičius, kurie dalijasi iš abiejų, - "FizzBuzz".
+
+for (let i = 0; i < 100; i++) { if (i%3===0) {console.log("fizz")};  
+if (i%5===0) {console.log('Buzz')}; if (i%3===0 && i%5===0) console.log("FizzBuzz"); else console.log(i);
+
+
+
+
+    
+
+    
+    
+}
