@@ -22,7 +22,10 @@
     "undefined":"node --watch ./undefined.js",
     "valid-name.js":"node --watch ./valid-name.js",
     "method-number.js":"node --watch ./method-number.js",
+    "money-format.js":"node --watch ./money-format.js",
+    "method-array.js":"node --watch ./method-array.js",
     "math":"node --watch ./math.js",
+    "PRAKTIKA":"node --watch ./PRAKTIKA.js",
     
         "if":"node --watch ./if.js",
     "array":"node --watch ./array.js",

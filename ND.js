@@ -616,9 +616,53 @@ console.log(sum2);
 
 // 9. Atspausdinkite atvirkštinę eigą su žvaigždutėmis 5 eilutėse (pvz., *****, ****, *** ir t. t.).
 
-let zv = '' 
-for (let i = 5;  i >= 0;  i--)  {zv=(zv+ ) - i
-    console.log(zv)
-};
 
+
+
+
+let namieo = '*****';
+for (let s = 0;  s >= namieo.length; s--) 
+ {atimti = namieo.length - namieo.length[s]
+ console.log(atimti);
+}
+   
+
+
+
+
+// 10. Spausdinti skaičius nuo 1 iki 50, kurie dalijasi iš 3.
+
+
+
+ for (let i=0; i<50; i++) 
     
+    {if (i%3===0) {console.log(i)}} 
+
+  
+
+   
+ 
+       
+  for (let i=1; i<=50; i++) {if (i%5===0) console.log(i)}
+
+console.log("----------------");
+
+// Spausdinti skaičius nuo 1 iki 100, kurie dalijasi ir iš 3, ir iš 5.
+for (let i = 0; i < 100; i++) {  if (i%3===0 && i%5===0) console.log(i)
+} 
+
+// Sukurkite for ciklą, kuris penkis kartus išspausdintų "Hello, World!".
+for (let i = 0; i <5 ; i++) {console.log('hello, World')}
+
+
+////////////////////////////////////////*///////// 
+// /* 1. Sukurkite for ciklą, kuris spausdina skaičius nuo 1 iki 100, tačiau kiekvieną skaičių, 
+// kurisdalijasi iš 4, reikia pakeisti žodžiu „Fizz“. */
+
+for (let i = 1; i <100; i++)  if (i%4===0) 
+     {console.log('fizz')}  else {(
+console.log(i))}; 
+
+
+
+

@@ -95,3 +95,11 @@ console.log(typeof 'number');
 
 
 console.log(typeof 'number');
+
+console.log(3.15.toFixed(0));
+console.log(3.15.toFixed(1));
+console.log(3.15.toFixed(2));
+console.log(3.15.toFixed(3));
+console.log(3.15.toFixed(4));
+console.log(3.15.toFixed(5));
+console.log(3.15.toFixed(6));

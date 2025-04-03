@@ -1,102 +1,5 @@
-let a=5, b=3
-
-let k;
-
-k = a;
-a = b;
-b = k;
-console.log(a+b)
-
-
-
- g='5'
- j='5'
- i='5'
-
- console.log (g+j+i)
-
- p= 6
-
- o=12
-console.log(p+o)
-
-console.log(b+p+j)
-
-let h=2 
-console.log(h/Infinity)
-
-const b1 = `Vienguba (') kabute.`;
-console.log(b1);
-
-const b2 = `Dviguba (") kabute.`;
-console.log(b2);
-
-const b3 = `Vienguba (') ir dviguba (") kabutes.`;
-console.log(b3);
-
-const b4 = `Backtick (\`) kabute.`;
-console.log(b4)
-
-const b5 = 'Backtick (`) kabute.';
-console.log(b5)
-
-const b6 = "Backtick (`) kabute.";
-console.log(b6)
-
-
-// Maryte yra viena is 4 legendiniu studentu.
-const studentName = 'Maryte';
-const reiksme = 4;
-
-const student = studentName + ' yra viena/s is ' + reiksme + ' legendiniu studentu.';
-const student2 = `${studentName} yra viena/s is ${reiksme}studentu.`;
-
-console.log(student);
-console.log(student2);
-
-const demo = `Labas, ${studentName}.`;
-console.log(demo);
-
- // Antanas turi 12 obuliu
-
- const vyras = 'Antanas'; 
- const skaičiai = 12 
-
- const sakinys = vyras +  ' turi '  + skaičiai +  ' obuoliu.';
-
- console.log (sakinys); 
-
-
-
-
-/*Sukurti 3 kintamuosius su skaičiaus tipo reikšmėmis
-Po kiekvieno jų inicijavimo, išvesti į console
-
-Sukurti 3 kintamuosius su teksto tipo reikšmėmis
-Po kiekvieno jų inicijavimo, išvesti į console
-
-Sukurti 3 sąrašo tipo kintamuosius su penkiomis skaičių tipo reikšmėmis
-Po kiekvieno jų inicijavimo, išvesti į console
-
-Sukurti 3 sąrašo tipo kintamuosius su penkiomis teksto tipo reikšmėmis
-Po kiekvieno jų inicijavimo, išvesti į console*/ 
-
-
-const ki = 2 
-console.log=(ki);
-
-const ki2 = 6 
-console.log =(ki2);
-
-const ki3= 8 
-console.log=(ki3);
-
-
-console.clear();
-
-
 //Parašykite for ciklą, kuris išvestų į console tik tuos skaičius, jei jie yra pinigų reikšmės (1, 2, 5, 10, 20, 50, 100, 200, 500)
-
+console.log("\nNauja užduotis\n")
 
 for(let i = 1; i<=500; i++)
 {
@@ -107,7 +10,7 @@ for(let i = 1; i<=500; i++)
 }
 
 //Parašykite for ciklą, kuris iš sąrašo Raidės [ ‘L’, ‘a’, ‘b’, ‘a’, ‘s’] sudėliotų kintamąjį Žodis, kurio reikšmė yra ‘Labas’
-
+console.log("\nNauja užduotis\n")
 const Raidės = [ 'L', 'a', 'b', 'a', 's'];
 
 let zodisLabas = '';
@@ -120,7 +23,7 @@ for(let i= 0; i<Raidės.length; i++)
 console.log(zodisLabas)
 
 //Parašykite for ciklą, kuris atskirai atspausdintų kiekvieną žodžio Programavimas raidę.
-
+console.log("\nNauja užduotis\n")
 let zodisP = 'Programavimas';
 
 for (let i = 0; i<zodisP.length; i++)
@@ -132,7 +35,7 @@ for (let i = 0; i<zodisP.length; i++)
 //Parašykite for ciklą, kuris sudaugintų skaičius nuo 2 iki 10. Už ciklo išveskite į consolę reikšmę
 
 // ats = 2*3*4*5*6*7*8*9*10
-
+console.log("\nNauja užduotis\n")
 let Daugyba = 2;
 
 for (let i = 3; i<=10; i++)
@@ -144,7 +47,7 @@ console.log(Daugyba);
 
 
 //Parašykite for ciklą, kuris į console išvestų skaičius nuo 20 iki 10
-
+console.log("\nNauja užduotis\n")
 
 for(let i= 20; i>=10; i--)
 {
@@ -153,7 +56,7 @@ for(let i= 20; i>=10; i--)
 
 
 //Parašykite for ciklą, kuris į console išvestų sąrašo RaidėsAtbulai [ ‘s’, ‘a’, ‘b’, ‘a’, ‘L’]  elementus vienas po kito nuo galo iki pradžios
-
+console.log("\nNauja užduotis\n")
 const RaidėsAtbulai = ['s', 'a', 'b', 'a', 'L'];
 
 for(let i = RaidėsAtbulai.length-1; i>=0; i--)
@@ -163,9 +66,7 @@ for(let i = RaidėsAtbulai.length-1; i>=0; i--)
 
 
 //Parašykite for ciklą, kuris į console išvestų kintamojo ŽodisAtbulas = ‘samivamargorP’  atskiras raides vieną po kitos
-
-
-
+console.log("\nNauja užduotis\n")
 let ŽodisAtbulas = 'samivamargorP'
 
 for(let i= 0; i<ŽodisAtbulas.length; i++)
@@ -175,7 +76,7 @@ for(let i= 0; i<ŽodisAtbulas.length; i++)
 
 
 //Parašykite for ciklą, kuris į consolę išveda skaičius nuo 1 iki 100. Jei skaičius dalinasi iš 7, papildomai į consolę yra išvedamas žodis ‘lucky’
-
+console.log("\nNauja užduotis\n")
 
 for(let i = 1; i<=100; i++)
 {
@@ -193,7 +94,7 @@ for(let i = 1; i<=100; i++)
 
 
 //Parašykite for ciklą, kuris į console po vieną atskirai išvestų dvigubas sąrašo Dvigubinti [2, 3, 6, 8] reikšmes (Gaunamas atsakymas: 4, 6, 12, 16)
-
+console.log("\nNauja užduotis\n")
 const Dvigubinti = [2, 3, 6, 8];
 
 for(let i = 0; i<Dvigubinti.length; i++)
@@ -203,8 +104,7 @@ for(let i = 0; i<Dvigubinti.length; i++)
 
 
 //Parašykite for ciklą, kuris iš sąrašo DaugSkaičių [2, 14, 10, 1000, 503, 8, 0] išvestų visus skaičius, kurie yra mažesni už 100
-
-
+console.log("\nNauja užduotis\n")
 const DaugSkaičių = [2, 14, 10, 1000, 503, 8, 0]
 
 for(let i = 0; i<DaugSkaičių.length; i++)
@@ -218,7 +118,7 @@ for(let i = 0; i<DaugSkaičių.length; i++)
 
 
 //Parašykite for ciklą, kuris apskaičiuos visų nelyginių skaičių nuo 1 iki 30 sumą
-
+console.log("\nNauja užduotis\n")
 
 let NelSuma = 0;
 
@@ -234,11 +134,11 @@ console.log(NelSuma);
 
 
 
-
+console.log("---------------------------")
 
 
 //Parašykite funkciją, kuri patikrina, ar skaičius yra didesnis nei 18 (pvz., patikrinimas, ar žmogus pilnametis).
-
+console.log("\nNauja užduotis\n")
 
 function Ar18(skaicius)
 {
@@ -258,7 +158,7 @@ console.log(Ar18(18));
 
 
 //Parašykite funkciją, kuri patikrina, ar perduotas žodis yra „labas“.
-
+console.log("\nNauja užduotis\n")
 
 function arLabas (zodis)
 {
@@ -275,7 +175,7 @@ console.log(arLabas('Labas'));
 
 
 //Parašykite funkciją, kuri patikrina, ar žodis yra ilgesnis nei 5 simboliai.
-
+console.log("\nNauja užduotis\n")
 
 function Ar5 (zodis)
 {
@@ -293,7 +193,7 @@ Ar5('Iki');
 
 
 //Parašykite funkciją, kuri grąžina pirmąją perduoto žodžio raidę.
-
+console.log("\nNauja užduotis\n")
 
 function PirmaRaide (zodis)
 {
@@ -304,7 +204,7 @@ function PirmaRaide (zodis)
 console.log(PirmaRaide('Apelsinas'));
 
 //Parašykite funkciją, kuri grąžina paskutinę perduoto žodžio raidę.
-
+console.log("\nNauja užduotis\n")
 
 function PaskutineRaide (zodis)
 {
@@ -315,7 +215,7 @@ function PaskutineRaide (zodis)
 console.log(PaskutineRaide("Ananasas"));
 
 //Parašykite funkciją, kuri patikrina, ar žodis prasideda raide „A“.
-
+console.log("\nNauja užduotis\n")
 
 function PirmaRaideA (zodis)
 {
@@ -334,7 +234,7 @@ console.log(PirmaRaideA('Apelsinas'));
 
 
 //Parašykite funkciją, kuri grąžina žodžio ilgį.
-
+console.log("\nNauja užduotis\n")
 
 function ZodzioIlgis (zodis)
 {
@@ -345,6 +245,7 @@ console.log(ZodzioIlgis('labas'));
 
 
 //Parašykite funkciją, kuri grąžina „Ilgas“ arba „Trumpas“, priklausomai nuo žodžio ilgio. Ilgas žodis yra 7 simbolių ilgio arba didesnis, o trumpas yra 6 simbolių ilgio arba trumpesnis
+console.log("\nNauja užduotis\n")
 
 function IlgasTrumpas (zodis)
 {
@@ -363,6 +264,7 @@ console.log(IlgasTrumpas("Pomidoras"))
 console.log(IlgasTrumpas("Labas"))
 
 //Parašykite funkciją, kuri patikrina, ar du žodžiai yra vienodi.
+console.log("\nNauja užduotis\n")
 
 
 function duVienodi (zodis1, zodis2)
@@ -386,12 +288,12 @@ duVienodi("Labas", "Labas");
 
 
 //Parašykite funkciją, kuri grąžina „Diena“ arba „Naktis“, priklausomai nuo perduotos valandos (0–23).
-
+console.log("\nNauja užduotis\n")
 //Parašykite vieną funkciją, kuri patikrina skaičiaus vertę, ir jęi:
 //Skaičius yra teigiamas, išveda į console ‘esu teigiamas’
 //Skaičius yra neigiamas, išveda į console ‘esu neigiamas’
 //Skaičius yra nulis, išveda į console ‘esu nulis’
 //Skaičius yra didesnis už 100, išveda ‘didžiulis skaičius’
 //Jei skaičius nėra didesnis už 100, išveda ‘esu mažiukas
-
+console.log("\nNauja užduotis\n")
 
