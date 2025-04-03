@@ -84,3 +84,14 @@ console.log(parseFloat('labas44,4'))
 console.log(parseFloat('-44,4')) 
 console.log(parseFloat('--44,4')) 
 console.log(parseFloat('5-5')) 
+console.log('------------');
+
+const fa = 12.356
+console.log(fa);
+console.log(typeof fa);
+console.log(typeof typeof fa);
+console.log(typeof 'number');
+
+
+
+console.log(typeof 'number');
