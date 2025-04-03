@@ -591,3 +591,34 @@ for (let s = 1;  s <=5; s++)
 }
    
 
+
+
+
+
+const marks = [10, 2, 8, 4, 6];
+
+let sumz = 0;
+sumz += marks[0];
+sumz += marks[1];
+sumz += marks[2];
+sumz += marks[3];
+sumz += marks[4];
+console.log(sumz);
+
+let sum2 = 0;
+
+for (let i = 0; i < marks.length; i++) {
+    console.log('index', i, '-->', marks[i]);
+    sum2 += marks[i];
+}
+
+console.log(sum2);
+
+// 9. Atspausdinkite atvirkštinę eigą su žvaigždutėmis 5 eilutėse (pvz., *****, ****, *** ir t. t.).
+
+let zv = '' 
+for (let i = 5;  i >= 0;  i--)  {zv=(zv+ ) - i
+    console.log(zv)
+};
+
+    

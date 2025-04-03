@@ -21,6 +21,7 @@
     "objeckts":"node --watch ./objeckts.js",
     "undefined":"node --watch ./undefined.js",
     "valid-name.js":"node --watch ./valid-name.js",
+    "method-number.js":"node --watch ./method-number.js",
     "math":"node --watch ./math.js",
     
         "if":"node --watch ./if.js",
