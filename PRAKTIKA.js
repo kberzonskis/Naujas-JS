@@ -297,3 +297,5 @@ console.log("\nNauja užduotis\n")
 //Jei skaičius nėra didesnis už 100, išveda ‘esu mažiukas
 console.log("\nNauja užduotis\n")
 
+
+

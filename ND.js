@@ -620,12 +620,7 @@ console.log(sum2);
 
 
 
-let namieo = '*****';
-for (let s = 0;  s >= namieo.length; s--) 
- {atimti = namieo.length - namieo.length[s]
- console.log(atimti);
-}
-   
+
 
 
 
@@ -681,6 +676,50 @@ if (i%5===0) {console.log('Buzz')}; if (i%3===0 && i%5===0) console.log("FizzBuz
 
     
 
+   console.clear();
     
-    
+  /*  
 }
+
+let go = '*****'
+
+for (let s = 1;  s>=5; s--) 
+ { go = go  + '*' 
+ console.log(go);
+}
+   
+
+
+*/
+
+
+for (let i = 5; i>=1; i--) {
+    let strngB = "";
+    for (let n = i; n >=1; n--) {
+        strngB = strngB + "*";
+    }
+    console.log(strngB);
+}
+ 
+
+
+
+
+let namiees = '*';
+for (let s = 1;  s <=5; s++) 
+ {namiees = namiees + '*'
+ console.log(namiees);
+} } 
+
+
+
+// 3. Spausdinkite pirmuosius 10 skaičių Fibonačio sekoje
+
+
+function fibonacciSeries(n) {
+    let fib = *1*;
+    for (let i = 2; i < n; i++) {
+    fib[i] = fib[i - 1] + fib[i - 2];
+    }
+    return fib.slice(0, n);
+    }
