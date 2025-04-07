@@ -617,11 +617,14 @@ console.log(sum2);
 // 9. Atspausdinkite atvirkštinę eigą su žvaigždutėmis 5 eilutėse (pvz., *****, ****, *** ir t. t.).
 
 
-
-
-
-
-
+for (let i = 5; i>=1; i--) {
+    let strngB = "";
+    for (let n = i; n >=1; n--) {
+        strngB = strngB + "*";
+    }
+    console.log(strngB);
+}
+ 
 
 
 
@@ -668,67 +671,117 @@ console.log("----------------");
 // 2. Spausdinkite skaičius nuo 1 iki 100, bet skaičius, kurie dalijasi iš 3, pakeiskite "Fizz", 
 // skaičius, kurie dalijasi iš 5, - "Buzz", o skaičius, kurie dalijasi iš abiejų, - "FizzBuzz".
 
-for (let i = 0; i < 100; i++) { if (i%3===0) {console.log("fizz")};  
-if (i%5===0) {console.log('Buzz')}; if (i%3===0 && i%5===0) console.log("FizzBuzz"); else console.log(i);
 
 
 
 
+
+for (let i = 1; i<= 100; i++) {
+    if(i%3 === 0) 
+        {console.log("Fizz")}  
     
+    if (i%5 === 0) 
+        {console.log("Buzz")} 
+       
+     if (i%3 === 0 && i%5 ===0) 
+        {console.log("FizzBuzz")}
 
-   console.clear();
+     if (i%3 !== 0 && i%5 !==0){console.log(i)}
+
+     
+}
+/*
+3. Spausdinkite pirmuosius 10 skaičių Fibonačio sekoje.
+*/ 
+/*
+
+for (let i = 0; i <= 10; i++) {
+    let n  = n1+n2  
     
-  /*  
-}
+    
+}*/
+ 
+/*
+5. Spausdinti bet kurio pasirinkto skaičiaus daugybos lentelę. 77
 
-let go = '*****'
-
-for (let s = 1;  s>=5; s--) 
- { go = go  + '*' 
- console.log(go);
-}
+*/ 
+  let ji = 77 
+ for (i = 1; i <= 10; i++) {
+ console.log(`${i} * 77 = ${77 * i}`)
    
+ }
 
 
+
+ /* 4 Spausdinkite skaičius nuo 1 iki 20 ir prie kiekvieno lyginio skaičiaus spausdinkite
+ "Even", o prie kiekvieno nelyginio - "Odd". */ 
+
+
+ let Skait = 20
+for (i = 1; i <= 20; i++)
+    if (i%2===0) {console.log("Even")}
+    else if (i%2!==0)  {console.log("odd")}  
+
+
+
+   
+   /* 6. Sukurkite for ciklą, kuris spausdina skaičius nuo 1 iki 30, bet tik tuos, kurie dalijasi iš 2
+    arba 3. */
+
+
+    for (i=1; i<=30; i++) {
+
+        if (i%2===0) {console.log(i)} 
+       else  if (i%3===0) {console.log(i)}
+
+    }
+        
+
+
+    for (i=1; i<=30; i++) 
+
+        if (i%2===0 && i%3===0) {console.log(i)} 
+        
+
+/* 7. Sukurkite for ciklą, kad patikrintumėte, ar skaičius yra pirminis, ir išspausdintumėte
+pranešimą. */ 
+
+const pirminis = [3,4,5,6,8]
+
+/*9. Išspausdinkite visų lyginių skaičių nuo 1 iki 100 sumą */ 
+
+
+let sums = 0
+
+for ( i = 2; i<=100; i+=2) {
+
+sums = (sums+i)}
+
+console.log(sums)
+
+
+
+
+
+/*
+ public class SumNatural ( public static void main(String() args) 
+ ( int num = 100, sum = 0; 
+    for(int i = 1; i <= num; ++i)
+         ( // sum = sum + i; sum += i; ) 
+        System.out.println("Sum = " + sum); 
+
+*/ 
+/*
+7. Sukurkite for ciklą, kad patikrintumėte, ar skaičius yra pirminis, ir išspausdintumėte
+pranešimą.
 */
 
 
-for (let i = 5; i>=1; i--) {
-    let strngB = "";
-    for (let n = i; n >=1; n--) {
-        strngB = strngB + "*";
-    }
-    console.log(strngB);
-}
- 
+let nn = 7 
+for (i=1; i<=30; i++) 
 
-
-
-let namiees = '*';
-for (let s = 1;  s <=5; s++) 
- {namiees = namiees + '*'
- console.log(namiees);
-} } 
-
-
-
-// 3. Spausdinkite pirmuosius 10 skaičių Fibonačio sekoje
-
-/*
-function fibonacciSeries(n) {
-    let fib = *1*;
-    for (let i = 2; i < n; i++) {
-    fib[i] = fib[i - 1] + fib[i - 2];
-    }
-    return fib.slice(0, n);
-    }  */ 
-
-
-
-    function firstLetter(name) { return name[0]
-    
-    }
-    console.log(firstLetter('jonas'));
-     
-           
-   
+    if (i%i===0 && i%1===0) 
+        
+        {console.log(pirminis)}
+        
+        else {if}
