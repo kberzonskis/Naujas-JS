@@ -5,6 +5,7 @@
   "scripts": {
   
     "numbers":"node --watch ./numbers.js",
+    "arrow":"node --watch ./arrow.js",
     "for":"node --watch ./for.js",
     "marksaverage":"node --watch ./marksaverage.js",
     "ND":"node --watch ./ND.js",
@@ -12,6 +13,7 @@
     "method-string":"node --watch ./method-string.js",
     "index":"node --watch ./index.js",
     "multiply":"node --watch ./multiply.js",
+    "fancy-math":"node --watch ./fancy-math.js",
     "boolean":"node --watch ./boolean.js",
     "digitcount":"node --watch ./digitcount.js",
     "typeoff":"node --watch ./typeoff.js",
@@ -23,6 +25,7 @@
     "valid-name.js":"node --watch ./valid-name.js",
     "method-number.js":"node --watch ./method-number.js",
     "money-format.js":"node --watch ./money-format.js",
+    "names-split-join.js":"node --watch ./names-split-join.js",
     "method-array.js":"node --watch ./method-array.js",
     "math":"node --watch ./math.js",
     "PRAKTIKA":"node --watch ./PRAKTIKA.js",
