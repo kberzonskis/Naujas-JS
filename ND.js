@@ -799,7 +799,7 @@ if (i%2===0 || i%3===0)
  
 
 
- let xy = 
+ let xy = 15
 
  function isPrime(num) {
     if (num <= 1) return  `${num}' yra-- antrinis'`  ;
