@@ -794,7 +794,29 @@ if (i%2===0 || i%3===0)
 
  
    
+ 
+ 
+ 
 
 
-    
-     
+ let xy = 
+
+ function isPrime(num) {
+    if (num <= 1) return  `${num}' yra-- antrinis'`  ;
+    if (num <= 3) return    `${num}''--pirminis'` ; 
+    if (num % 2 === 0 || num % 3 === 0) return   `${num}' 'yra--antrinis'`;
+    for (let i = 5; i * i <= num; i += 6) 
+        
+        {
+               if (num % i === 0 || num % (i + 2) === 0) return  `${num}''yra--antrinis'`;
+    }
+    return `${num}' yra -- pirminis'`;
+}
+
+ 
+console.log(isPrime(xy))
+
+
+
+// 8. Spausdinkite pirmuosius 10 pirminių skaičių, naudodami for ciklą ir if sąlygas.
+
