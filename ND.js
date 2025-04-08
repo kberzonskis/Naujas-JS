@@ -775,12 +775,26 @@ console.log(sums)
 7. Sukurkite for ciklą, kad patikrintumėte, ar skaičius yra pirminis, ir išspausdintumėte
 pranešimą.
 */
+// && i/nn>2
+//  if ()
+
+
 
 let nn = 2 
-for (i=2; i<=10; i++) 
 
-    if (i%2===0 && i%3===0 && i/nn>2) 
-        
-        {console.log('antrinis')}
-        
-        else {console.log('pirminis')}
+
+ for (i=1; i<=15; i++)
+  
+    
+if (i%2===0 || i%3===0)
+
+
+{console.log(`${i }` +'--antrinis'  )}
+ else {console.log(`${i}`+ ' -- pirminis')} 
+
+ 
+   
+
+
+    
+     
