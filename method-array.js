@@ -101,3 +101,82 @@ console.log(products);
 
 
  
+console.clear()
+
+const g = [5,7,10,8,12]; 
+/* const k2 = [10,14,20,16,24] */ 
+
+const k2 = []
+for (const n of g){k2.push(n*2)}
+console.log(k2);
+
+function triple(n) {return n*3}
+const k3 = g.map(triple); 
+console.log(k3);
+
+
+const quadro = n => n*4
+const k4=g.map(quadro); 
+console.log(k4);
+
+
+const k5=g.map(n=>n*5); 
+console.log(k5);
+
+const k6=g.map(n=>n*6); 
+console.log(k6);
+
+
+// MAP su tekstais  
+const dict = ['bulve', 'morka', 'svogunas'];
+const dict2 = dict.map(w => w[0])
+console.log(dict2);
+ 
+const dict3 = dict.map(w => w.length)
+console.log(dict3);
+
+
+const people = [{name: 'Saulius', age: 55}, 
+                 { name: 'Jonas', age:  20}]
+
+  const people100 = people.map(person=> `${person.name} liko ${100-person.age}metai`); 
+  console.log(people100);
+                
+
+  const peopleNames= people.map(person=> person.name); 
+  console.log(peopleNames);
+  const peopleAges= people.map(person=> person.age); 
+  console.log(peopleAges);
+                
+
+  const peoplemarried = people.map(person => person.isMarried = true)
+  console.log(peoplemarried);
+  
+
+  // filter
+
+  const p = [5,7,8,10,12]
+  const p5 = []; 
+
+  for (const n of p) { if (n>5) {p5.push(n); }}
+  console.log(p5);
+
+
+  const p6 =p.filter(n => n >8); 
+  console.log(p6);
+  
+  const p7 =p.filter(n => n >7); 
+  console.log(p7);
+  
+  
+ 
+const p8 = p.filter(n => n > 2 && n < 8);
+console.log(p8);
+ 
+const texts5 = ['labas', '', 'rytas', '', 'Lietuva'];
+const texts5Updated = texts5.filter(t => t.length > 0);
+console.log(texts5Updated);
+ 
+const texts5Updated2 = texts5.filter(t => t);
+console.log(texts5Updated2);
+ 

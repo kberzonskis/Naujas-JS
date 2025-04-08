@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  
+    "ND":"node --watch ./ND.js",
     "numbers":"node --watch ./numbers.js",
     "arrow":"node --watch ./arrow.js",
     "for":"node --watch ./for.js",
     "marksaverage":"node --watch ./marksaverage.js",
-    "ND":"node --watch ./ND.js",
-    "string":"node --watch ./string.js",
+     "string":"node --watch ./string.js",
     "method-string":"node --watch ./method-string.js",
     "index":"node --watch ./index.js",
     "multiply":"node --watch ./multiply.js",
@@ -27,7 +26,11 @@
     "money-format.js":"node --watch ./money-format.js",
     "names-split-join.js":"node --watch ./names-split-join.js",
     "method-array.js":"node --watch ./method-array.js",
+    "ternary.js":"node --watch ./ternary.js",
     "math":"node --watch ./math.js",
+    "while":"node --watch ./while.js",
+    "for-off":"node --watch ./for-off.js",
+    "for-in":"node --watch ./for-in.js",
     "PRAKTIKA":"node --watch ./PRAKTIKA.js",
     
         "if":"node --watch ./if.js",

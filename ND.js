@@ -776,12 +776,11 @@ console.log(sums)
 pranešimą.
 */
 
+let nn = 2 
+for (i=2; i<=10; i++) 
 
-let nn = 7 
-for (i=1; i<=30; i++) 
-
-    if (i%i===0 && i%1===0) 
+    if (i%2===0 && i%3===0 && i/nn>2) 
         
-        {console.log(pirminis)}
+        {console.log('antrinis')}
         
-        else {if}
+        else {console.log('pirminis')}
