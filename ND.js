@@ -910,3 +910,113 @@ c. Skaičius yra nulis, išveda į console ‘esu nulis’
 d. Skaičius yra didesnis už 100, išveda ‘didžiulis skaičius’
 e. Jei skaičius nėra didesnis už 100, išveda ‘esu mažiukas
 */ 
+
+
+
+//1. Parašykite for ciklą, kuris apskaičiuotų visų skaičių nuo 5 iki 15 sumą
+
+console.clear();
+
+
+let suma = 0 
+
+for (i=5; i<=15; i++) 
+    {suma = (suma + i); 
+
+} console.log(suma);
+
+
+// 2. Parašykite for ciklą, kuris į console išvestų visas žodžio ‘Vakaras’ raides po vieną
+
+let zod = 'Vakaras'
+for (i=0; i<zod.length; i++) {
+    let raides = zod[i]
+   console.log(raides) ;
+} 
+
+// 3. Parašykite for ciklą, kuris išvestų šešeto daugybos lentelę
+
+let dauginamasis = 7 
+for (i=1; i<=10; i++)
+{let lentele = `${dauginamasis} *  ${i} = ${dauginamasis*i}` 
+;console.log(lentele)
+}
+
+
+/* 4. Parašykite for ciklą, kuris į consolę išvestų nuo 5 iki 1, ir po vieneto (vietoje 0) į
+ekraną išvestų žodį ‘tiesa’ */
+
+for (i=5; i>=0; i--) { 
+   
+    if (i===0)   console.log('Tiesa'); else
+    console.log(i)
+  
+
+       }     
+
+
+
+
+   //    5. Parašykite for ciklą, kuris sudėtų visus lyginius skaičius nuo 3 iki 18
+
+let sumaLyginiai = 0 
+
+for (i=4; i<=18; i+=2 ) { 
+sumaLyginiai = (sumaLyginiai+i) 
+;
+
+} console.log(sumaLyginiai + ' ---- yra geri skaiciai')
+
+
+// 6. Parašykite for ciklą, kuris išvestų visus sąrašo elementus į console.
+
+
+let elementai = [5,7,8,10,12] 
+
+for (i=0; i<elementai.length; i++ ) { 
+    
+   console.log(elementai[i])
+   
+
+
+}  
+
+// 7. Parašykite ciklą, kuris iš vardų sąrašo išvestų visus elementus,
+//  pridėdamas ‘Manovardas - ’ console log eilutės pradžioje
+
+let vardai = ['Kefa', 'Johananas', 'Mirjam'] 
+for (i=0; i<=2; i++) { 
+    const vardu = `Mano vardas ${vardai[i]}`
+    console.log(vardu);
+
+ } 
+console.log('-----------');
+
+
+ let vardaii = ['Kefa', 'Johananas', 'Mirjam'] 
+ for (i=0; i<=2; i++) { 
+   
+     console.log(`Mano vardas ${vardaii[i]}`);
+ 
+  } 
+  console.log('-----------');
+ 
+  let vardaiii = ['Kefa', 'Johananas', 'Mirjam'] 
+  for (i=0; i<vardaiii.length; i++) { 
+    
+      console.log(`Mano vardas ${vardaiii[i]}`);
+  
+   } 
+  
+
+  // 8. Parašykite for ciklą, kuris sudėtų visus sąrašo skaitinius elementus.
+
+  let sarasasF = [7,5,'undefined',8,10,12]
+
+
+const a1 = sarasasF.shift()
+
+
+console.log(sarasasF,a3)
+
+
