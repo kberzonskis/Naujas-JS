@@ -180,3 +180,39 @@ console.log(texts5Updated);
 const texts5Updated2 = texts5.filter(t => t);
 console.log(texts5Updated2);
  
+
+// fill 
+
+const default5 = [0,0,0,0,0]
+const default50 = [5,5,5,5,5] /*??? kaip padaryti 50]*/ 
+const default7 = Array(7);  /*??? kaip padaryti 50]*/ 
+const default88 = Array(88).fill(88);  console.log(default88);
+const default21 = Array(21).fill(21);  console.log(default21);
+
+const negativai = Array(15).fill(false); console.log(negativai);
+const tiesai = Array(15).fill('sviesa'); console.log(tiesai);
+
+const demo = [10,8,7,5,] 
+demo.fill(777)
+console.log(demo);
+
+
+
+// every - patikrinti 'ar netusti'? 
+const trees = ['akacija', 'kedras', 'yzopas']
+const alltreesValid = trees.every(s=> s.length >0 ); console.log(alltreesValid);
+
+const allTreesnamesSize5= trees.every(s => s.length === 5 )
+console.log(allTreesnamesSize5);
+
+const someTreesnamesSize5= trees.every(s => s.length === 0 )
+console.log(someTreesnamesSize5);
+
+const somesTreesnamesSize5= trees.every(s => s.length === 1 )
+console.log(someTreesnamesSize5);
+
+
+
+
+
+
