@@ -33,6 +33,7 @@
     "reduce":"node --watch ./reduce.js",
     "for-off":"node --watch ./for-off.js",
     "for-in":"node --watch ./for-in.js",
+    "destruktur-rest":"node --watch ./destruktur-rest.js",
     "PRAKTIKA":"node --watch ./PRAKTIKA.js",
     
         "if":"node --watch ./if.js",
