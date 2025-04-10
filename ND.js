@@ -1011,12 +1011,42 @@ console.log('-----------');
 
   // 8. Parašykite for ciklą, kuris sudėtų visus sąrašo skaitinius elementus.
 
-  let sarasasF = [7,5,'undefined',8,10,12]
+  let sarasas =  [7, 5, 8, 10, 12]
+  let sumos = 0
+  for (i = 0; i<5; i++) 
+   {
+    sumos += sarasas[i]};
+
+    console.log(sumos)
+        
+         
+   // 9. Parašykite for ciklą, kuris išvestų į console visus sąrašo elementus nuo paskutinio iki pirmo
+   
+   
+    
+    let sar =  [7, 5, 8, 10, 12]
+    for (i=sar.length-1; i>=0; i--) {  
+   
+   console.log(sar[i]);
+    }          
+    
+    
+
+/* 10. Parašykite for ciklą, kuris išvestų į console tik tuos skaičius, jei jie yra pinigų reikšmės 
+() */ 
 
 
-const a1 = sarasasF.shift()
+let pinigai = (1, 2, 5, 10, 20, 30, 100, 200,300, 500)
+
+for (i=1; i<5000; i++)
+     {if (i===5 || i===10 || i===20 || i===50 || i===100 || i===200 || i===500) 
+        
+        console.log(i)
+        } 
+     
 
 
-console.log(sarasasF.a1)
+       /* 11. Parašykite for ciklą, kuris iš sąrašo Raidės [ ‘L’, ‘a’, ‘b’, ‘a’, ‘s’] sudėliotų kintamąjį
+        Žodis, kurio reikšmė yra ‘Labas’ */
 
-
+        
