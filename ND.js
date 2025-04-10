@@ -1017,6 +1017,6 @@ console.log('-----------');
 const a1 = sarasasF.shift()
 
 
-console.log(sarasasF,a3)
+console.log(sarasasF.a1)
 
 

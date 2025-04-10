@@ -66,7 +66,10 @@ for (let i = 0; i < names.length; i++) {
     upperCaseNames.push(name.toUpperCase());
 }
  
-const numbers2 = [10, 2, 8, 4, 6]
+console.log('------777-------');
+
+
+const numbers2 = [7, 5, 8, 10, 12]
 console.log(numbers2);
 
 numbers2.push(9)
@@ -100,8 +103,8 @@ const products = `reikalingi produktai: ${texts.join(',')}. `;
 console.log(products);  
 
 
- 
-console.clear()
+console.log('------777-------');
+
 
 const g = [5,7,10,8,12]; 
 /* const k2 = [10,14,20,16,24] */ 
