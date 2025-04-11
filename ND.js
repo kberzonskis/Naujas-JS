@@ -1036,9 +1036,9 @@ console.log('-----------');
 () */ 
 
 
-let pinigai = (1, 2, 5, 10, 20, 30, 100, 200,300, 500)
+let pinigai = [1, 2, 5, 10, 20, 30, 100, 200,300, 500]
 
-for (i=1; i<5000; i++)
+for (i=1; i<=pinigai.length; i++)
      {if (i===5 || i===10 || i===20 || i===50 || i===100 || i===200 || i===500) 
         
         console.log(i)
@@ -1049,4 +1049,51 @@ for (i=1; i<5000; i++)
        /* 11. Parašykite for ciklą, kuris iš sąrašo Raidės [ ‘L’, ‘a’, ‘b’, ‘a’, ‘s’] sudėliotų kintamąjį
         Žodis, kurio reikšmė yra ‘Labas’ */
 
+        let String = ['L','a','b','a','s'];  
+        let labas = ''
+        for (i = 0; i<String.length; i++) { 
+        labas +=  String[i] 
+      }  console.log(labas); 
+
+
+
         
+      // 12. Parašykite for ciklą, kuris atskirai atspausdintų kiekvieną žodžio Programavimas
+      // raidę. 
+            
+let pit = 'Programavimas'
+for (let i = 0; i<pit.length; i++) {
+   
+   console.log(pit[i]) } 
+
+   // 13. Parašykite for ciklą, kuris sudaugintų skaičius nuo 2 iki 10. Už ciklo išveskite į
+  //  consolę reikšmę
+
+
+  let sumss = 1
+ for (i=2; i<= 10; i++)
+    
+      {  sumss = sumss  * i; 
+      }  console.log(sumss);
+      
+ 
+
+
+
+   //   14. Parašykite for ciklą, kuris apskaičiuos visų nelyginių skaičių nuo 1 iki 30 sumą
+
+
+let skai = 30 
+
+for (let i = 0; i < 30 ; i++) {
+    const element = array i;
+    
+}
+
+
+
+       const text = ['geris', 'Tiesa', 'Sviesa', 'siluma']
+       console.log(text);
+
+
+
