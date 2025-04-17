@@ -1050,10 +1050,10 @@ for (i=1; i<=pinigai.length; i++)
         Žodis, kurio reikšmė yra ‘Labas’ */
 
         let String = ['L','a','b','a','s'];  
-        let labas = ''
+        let labass = ''
         for (i = 0; i<String.length; i++) { 
-        labas +=  String[i] 
-      }  console.log(labas); 
+        labass +=  String[i] 
+      }  console.log(labass); 
 
 
 
@@ -1081,19 +1081,289 @@ for (let i = 0; i<pit.length; i++) {
 
 
    //   14. Parašykite for ciklą, kuris apskaičiuos visų nelyginių skaičių nuo 1 iki 30 sumą
+console.log(`-----14---------`);
 
 
 let skai = 30 
+let sum32 = 0
+for (let i = 1; i <=30 ; i+=2) {
 
-for (let i = 0; i < 30 ; i++) {
-    const element = array i;
+sum32 += i
+
+  
+  
+ 
+}
+console.log(sum32);
+  
+
+
+console.log(`----14------------`);
+
+
+ //   14. Parašykite for ciklą, kuris apskaičiuos visų nelyginių skaičių nuo 1 iki 30 sumą
+
+let sum32y = 0
+
+for (let i = 0; i <=30 ; i++) { if (i%2==!0)
+sum32y+=i
+  
+;}
+
+
+
+
+console.log(sum32y);
+
+
+
+
+
+
+
+   
+
+// 15. Parašykite for ciklą, kuris į console išvestų skaičius nuo 20 iki 10
+
+
+
+      for (let i=20; i>=10; i--){ console.log(i)
+       } 
+
+
+
+   /*    16. Parašykite for ciklą, kuris į console išvestų sąrašo RaidėsAtbulai  [ ‘s’, ‘a’, ‘b’, ‘a’, ‘L’]
+elementus vienas po kito nuo galo iki pradžios
+*/ 
+
+
+
+const Sabal = ['s','a','b','a','L'];  
+
+for (let i=Sabal.length-1; i>=0; i--) { console.log(Sabal[i])
+ 
+}; 
+
+
+/*
+17. Parašykite for ciklą, kuris į console išvestų kintamojo ŽodisAtbulas =
+ atskiras raides vieną po kitos */ 
+
+const ZodisAtbulai = 'samivamargorP' 
+
+for (let i=0; i<ZodisAtbulai.length; i++) {console.log(ZodisAtbulai[i])
+ }
+
+
+
+ // 18. Parašykite for ciklą, kuris į consolę išveda skaičius nuo 1 iki 100. Jei skaičius dalinasi
+// iš 7, papildomai į consolę yra išvedamas žodis ‘lucky’ 
+
+for (i = 0; i<=100; i++) {if (i%7===0) console.log('Lucky'); else console.log(i);
+}
+ 
+
+/* 19. Parašykite for ciklą, kuris į console po vieną atskirai išvestų dvigubas sąrašo
+Dvigubinti [2, 3, 6, 8] reikšmes (Gaunamas atsakymas: 4, 6, 12, 16) */ 
+
+let dvigubinti = [2,3,6,8]
+
+for (let i=0; i<dvigubinti.length; i++) { console.log(dvigubinti[i] * 2)
     
+    
+    
+    } 
+
+
+
+    
+let dvigubint = [2,3,6,9]
+let sandauga = 0
+for (let i=0; i<dvigubinti.length; i++) {
+    
+    sandauga = (dvigubint[i] * 2) 
+ 
+  console.log(sandauga);
+    
+    } 
+    
+    
+
+ /*   20. Parašykite for ciklą, kuris iš sąrašo DaugSkaičių išvestų
+visus skaičius, kurie yra mažesni už 100 */ 
+
+
+const DaugSkaiciu = [2, 14, 10, 1000, 503, 8, 0]  
+
+for (i=0; i<DaugSkaiciu.length; i++) { if (DaugSkaiciu[i]<100)  console.log(DaugSkaiciu[i]);
+}
+
+
+console.log('21-------------');
+
+
+// 21. Parašykite for ciklą, kuris apskaičiuotų kiek raidžių a yra žodyje abrakadabra
+
+let zz = ['pavasaris']
+let rz = zz.toString(zz);
+console.log(rz);
+console.log('22-------------');
+let zo2 = rz.split('')
+console.log(zo2);
+let Acount = ''
+for (i=0; i<zo2.length; i++) { if (zo2[i]=== 'a') Acount++
+    
+} console.log(Acount); 
+
+console.log('-------------');
+
+/*
+22. Parašykite for ciklą, kuris išvestų, kokios būtų sąrašo PridėsiuSkaičių [2, 8, 88, 14]
+elementų reikšmės, jei prie kiekvieno elemento pridėtume dvejetą. */ 
+
+let PridėsiuSkaičių = [2, 8, 88, 14]
+
+for (let index = 0; index < PridėsiuSkaičių.length; index++) {
+    const element = PridėsiuSkaičių[index] + 2;
+    console.log(element);
+    
+}
+
+console.log('-------23------');
+
+/*
+23. Parašykite for ciklą, kuris suskaičiuotų kiek žodyje 
+yra raidžių e
+*/ 
+ let eCount= 0
+let fd = 'Nebeprisikiškiakopūstėliaudavome' 
+for (let i = 0; i < fd.length; i++) {
+  
+    if (fd[i]==='e') eCount++     
+    
+} console.log(eCount);
+
+console.log('------24-------');
+/*
+24. Parašykite for ciklą, kuris į consolę išvestų kiekvieną žodžio
+Nebeprisikiškiakopūstėliaudavome e raidę, ir parašytų, kurioje žodžio vietoje ji yra:
+PVZ: Žodžiui Keletą būtų išvedama:
+e raidė yra 2 vietoje
+e raidė yra 4 vietoje */ 
+
+
+let Counter = 'Nebeprisikiškiakopūstėliaudavome'
+let targetLetter = 'e'
+for (let i = 0; i < Counter.length; i++) {
+  
+    if (Counter.charAt(i)===targetLetter) 
+        
+   console.log(`${targetLetter}` + ' yra pozicijoje ' + i); }
+    
+   console.log('------25-------');
+
+/*25. Parašykite for ciklą, kuris išvestų kokia kintamojo let Lobis = 150 reikšmė būtų, jei
+mes iš jo atimtume reikšmes nuo 20 iki 15. Į consolę išveskite kaip mažėja turtas.
+*/
+
+
+
+let Lobis = 150;
+for (let i = 20; i >= 15; i--){
+   Lobis = Lobis - i
+    console.log(Lobis);
 }
 
 
 
-       const text = ['geris', 'Tiesa', 'Sviesa', 'siluma']
-       console.log(text);
 
 
 
+
+
+/*
+    public static void main(String args[]){
+        String string = ("You are awesome honey");
+        for (int i = 0 ; i<string.length() ; i++)
+        if (string.charAt(i) == 'o')
+        System.out.println(i);...
+
+
+
+
+
+
+
+       /*
+
+    public class LetterCounter {
+        public static void main(String[] args) {
+            String inputString = "Hello, World!";
+            char targetLetter = 'o';
+            
+            int count = 0;
+            List<Integer> positions = new ArrayList<>();
+            
+            for (int i = 0; i < inputString.length(); i++) {
+                if (inputString.charAt(i) == targetLetter) {
+                    count++;
+                    ;
+                }
+            }
+            
+            System.out.println("The letter '" + targetLetter + "' appears " + count + " times.");
+            System.out.println("Positions: " + positions);
+        }
+    }
+
+
+/*
+
+
+    public static void showLetterPositions(String str) {
+        for (int i = 0; i < str.length(); i++) {
+            char letter = str.charAt(i);
+            int position = i + 1; // Position is 1-based
+            System.out.println("Letter: " + letter + " Position: " + position);
+        }
+    }
+}
+
+
+
+
+
+/*
+let commas = 0;
+for( i = 0; i < helloWorld.length(); i++) {
+  if(helloWorld.charAt(i) == ',') commas++;
+}
+System.out.println(helloWorld + " has " + commas + " commas!");...
+
+
+
+
+
+
+
+/*
+console.log(zo[0]);
+
+const text= 'pomidoras'; 
+console.log(text[0]); 
+console.log([text.length -1]); 
+
+
+
+
+const textu = 'papajus';
+const symbols = [];
+
+for ( i of textu) {
+    if (symbols[i]) {
+        symbols[i]++;
+    } else {
+        symbols[i] = 1;
+    }
+}
+console.log(symbols); */

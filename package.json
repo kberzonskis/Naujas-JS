@@ -42,6 +42,7 @@
     "interval":"node --watch ./interval.js",
     "praktic":"node --watch ./praktic.js",
     "task":"node --watch ./task.js",
+    "planets":"node --watch ./planets.js",
     "multi-table":"node --watch ./multi-table.js"
   },
   "keywords": [],
