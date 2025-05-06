@@ -7,6 +7,9 @@ console.log(text);
 text.sort()
 console.log(text);
 
+console.log('------------------');
+
+
 
 // raides pasivercia i skaiciu
 const sptext = ['d', 'b', 'ca', 'bf', 'ba', 'cc',]
@@ -14,7 +17,7 @@ sptext.sort()
 console.log(sptext);
 
 
-console.clear()
+console.log('------------------');
 
 const numb = [2,15,16,21]
 console.log(numb);

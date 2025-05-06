@@ -56,6 +56,8 @@ const sak = (kas1) + ` ${(kaveikia1)} `  + (kur1)
 console.log(sak)
 
 2.3 
+console.log('--23--');
+
  
 const sa21 = "78945" 
  
@@ -119,7 +121,10 @@ const Saule4 = saule1[24]
 const Saule = (Saule0+Saule1+Saule2+Saule3+Saule4)
 console.log(Saule)
 
-const visasSarasas = ` ${Saule}, ${Sviecia}, ${Kai}, ${Diena}, ${Grazi}    `; 
+
+console.log('------------');
+
+const visasSarasas = (Saule +' '+ Sviecia+ ' ' + Kai +' '+Diena + ' ' +Grazi)   
 console.log(visasSarasas) 
 
 
@@ -915,7 +920,7 @@ e. Jei skaičius nėra didesnis už 100, išveda ‘esu mažiukas
 
 //1. Parašykite for ciklą, kuris apskaičiuotų visų skaičių nuo 5 iki 15 sumą
 
-console.clear();
+console.log('----------------------------')
 
 
 let suma = 0 
@@ -1204,7 +1209,7 @@ console.log('21-------------');
 
 // 21. Parašykite for ciklą, kuris apskaičiuotų kiek raidžių a yra žodyje abrakadabra
 
-let zz = ['pavasaris']
+let zz = 'pavasaris'
 let rz = zz.toString(zz);
 console.log(rz);
 console.log('22-------------');
@@ -1274,6 +1279,445 @@ for (let i = 20; i >= 15; i--){
     console.log(Lobis);
 }
 
+
+
+
+
+
+
+
+// 1. Parašykite funkciją, kuri grąžina dviejų skaičių sumą.
+let am=3
+let bm=2 
+function sumoss(a,b) { 
+ 
+let rezult =0 
+ rezult = a+b  
+ return rezult
+
+}; console.log(sumoss(am,bm))
+
+/*
+2. Parašykite funkciją, kuri grąžina dviejų skaičių skirtumą. */
+
+let v12 = 15 
+let v11 = 23
+
+function jim(a,b) { 
+let rezult = 0 
+rezult = a-b 
+return [rezult-15];
+
+
+} console.log(jim(v12,v11));
+
+
+/* 3. Parašykite funkciją, kuri grąžina dviejų skaičių sandaugą. */ 
+let vg = 98 
+let gv =89
+
+function Jimj(a,b) { 
+let rezult = 0 
+rezult = a*b 
+return {rezult}
+
+} console.log(Jimj(vg,gv));
+
+/*Funkcijos 
+
+
+6. Parašykite funkciją, kuri patikrina, ar skaičius yra teigiamas.
+
+*/ 
+let go = -1
+
+function Jimy(dib) { if (dib>0) return 'tegiamas'; else return 'neigiamas'} 
+console.log(Jimy(go));
+
+// 10. Parašykite funkciją, kuri patikrina, ar skaičius yra lygus 100   
+let zyp = 99 
+function zy(simtas)
+{ if (simtas===100) return  `skaicius lygus 100`; else return `skaicius nera lygus 100`} 
+console.log(zy(zyp));
+
+
+
+
+function zy(simtas){ 
+ let zyp = 100
+
+if (zyp===100) return  `skaicius lygus 100`; else return `skaicius nera lygus 100`;   
+ } console.log(zy())
+
+
+// 16. Parašykite funkciją, kuri patikrina, ar skaičius yra tarp 1 ir 10. 
+
+function vy() {
+
+if (zyp>0&&zyp<=10) return 'yra tarp skaiciu'; else return 'nera tarp skaiciu'
+
+} console.log(vy());
+
+
+// 27. Parašykite funkciją, 
+// kuri grąžina „Ilgas“ arba „Trumpas“, priklausomai nuo žodžio ilgio. 
+// Ilgas žodis yra 7 simbolių ilgio arba didesnis, 
+// o trumpas yra 6 simbolių ilgio arba trumpesnis 
+
+
+let df = 'kl'
+function sugrazina(s) {
+
+  if (s.length>=7) return 'Ilgas'; else if (s.length<=6&&s.length>3) return 'trumpas'; else return 'per trumpas'
+
+} console.log(sugrazina(df));
+
+
+
+// 29. Parašykite funkciją, kuri grąžina „Sviesos metas“ arba „Tamsos metas“, priklausomai nuo perduotos valandos (0–23). 
+function dienaNaktis() {
+let sk = 6
+if (sk>=7&&sk<=23) return 'Sviesos metas'; else return 'Tamsos metas'
+
+}console.log(dienaNaktis());
+
+
+/* 30. Parašykite vieną funkciją, kuri patikrina skaičiaus vertę, ir jęi: 
+a. Skaičius yra teigiamas, išveda į console ‘esu teigiamas’ 
+b. Skaičius yra neigiamas, išveda į console ‘esu neigiamas’ 
+c. Skaičius yra nulis, išveda į console ‘esu nulis’ 
+d. Skaičius yra didesnis už 100, išveda ‘didžiulis skaičius’ 
+e. Jei skaičius nėra didesnis už 100, išveda ‘esu mažiukas */
+
+let skd = 60
+
+
+
+function patikrinti() {
+
+if (skd>0) console.log('teigiamas');  
+if (skd<0)  console.log('neigiamas');
+; 
+if (skd===0) console.log('nulis');
+if (skd>100) console.log('didžiulis skaičius');
+if (skd<100) console.log('mazesnis uz 100');
+if (skd>50) return ('didesnis 50');
+
+
+
+} console.log(patikrinti(sk))
+
+// Parašykite funkciją, kuri patikrina, ar žodis prasideda raide „A“
+let zot = 'Arbata'
+function firstSymbolis(zot) {if (zot.charAt('A') === 'A') return true; else return false} 
+
+console.log(firstSymbolis(zot));
+console.log(firstSymbolis('Bgap'));
+
+
+
+
+
+
+
+
+
+
+
+
+/* 22. Parašykite funkciją, kuri patikrina, ar žodis yra ilgesnis nei 5 simboliai.
+
+
+
+function faktorial(params) { 
+
+for (i=6; i>=1; i--) 
+
+k=a
+console.log((i)) 
+} ;  console.log((i)) 
+
+
+*/
+/*
+
+function countLetter(word, letter) {
+let count = 0;
+for (let i = 0; i < word.length; i++) {
+    if (word[i].toLowerCace() === letter.toLowerCace()) {
+    count++;
+  }
+}
+return count;
+}
+console.log(countLetter('kakavinukas', 'k'));
+
+
+*/
+/*
+
+function countLettr(word, letter) {
+  let count =0;
+ for (let i = 0; i < word.length; i++) {
+   if (word[i].toLowerCase() === letter.toLowerCase()) {
+      count++;
+  }
+  }
+  return count;
+}
+
+console.log(countLettr("Ananasas", 's'));
+
+
+
+
+
+
+
+
+
+
+
+
+//1 uzd1. Parašykite funkciją, kuri išvestų skaičiaus faktorialą
+
+
+// function  factorial(n) {
+//     let result = 1;
+//     for (let i = 1; i <= n; i++) {
+//       result *= i;
+//     }
+//     return result;
+//   }
+
+// console.log(factorial(5));
+
+
+
+//2 uzd Parašykite funkciją, kuri apskaičiuotų kiek kartų tam tikra raidė pasikartojo žodyje arba sakinyje
+//2 uzd Parašykite funkciją, kuri apskaičiuotų kiek kartų tam tikra raidė pasikartojo žodyje arba sakinyje
+//   function countLetter(word, letter) {
+//       let count =0;
+//       for (let i = 0; i < word.length; i++) {
+//         if (word[i].toLowerCase() === letter.toLowerCase()) {
+//            count++;
+//         }
+//       }
+//       return count;
+//     }
+
+//     console.log(countLetter("Ananasas", 'A'));
+
+
+
+
+// //11 Funkcija, kuri priima masyvą vardų ir grąžina tik tuos, kurie prasideda „A“ raide
+// function vardaiSuA(vardai) {
+//   return vardai.filter(v => v.startsWith('A'));
+// }
+
+// console.log(vardaiSuA(['Tomas', 'Andrius', 'Augustė', 'Justas']))
+
+
+
+
+//12  Funkcija, kuri turi sąraše rasti skaičių, kuris jame kartojasi daugiau nei vieną kartą
+//  
+/* function rastiPasikartojanti(masyvas) {
+for (let i = 0; i < masyvas.length; i++) {
+  for (let j = i+1; j < masyvas.length; j++) {
+    if (masyvas[i] === masyvas[j]) {
+      return masyvas[i];
+    }
+  }
+}
+
+return "neradau";
+}
+
+
+console.log(rastiPasikartojanti([1, 0, 2, 4, 3, 0])) */
+
+
+//13 13. Sukurk funkciją, kuri grąžins visus duoto sąrašo skaičius, kurie yra tarp dviejų nurodytų reikšmių:  ([2, 5, 36, 8, 15, 6] masyvui nurodžius 5 20 intervalą, bus grąžinama [5, 8, 15,6] )
+
+//   function tarpReiksmiu(masyvas, nuo, iki) {
+//     let rezultatas = [];
+//     for (let i = 0; i < masyvas.length; i++) {
+//       if (masyvas[i] >= nuo && masyvas[i] <= iki) {
+//         rezultatas = masyvas[i];
+//       }
+//     }
+//   }
+//   console.log(tarpReiksmiu);
+
+
+
+
+//14 . Parašykite funkciją, kuri iš žodžių sąrašo išrinktų ir grąžintų tik tuos žodžius, kuriuose yra raidė e
+//   function zodziaiSuE(zodziai) {
+//     let rezultatas = [];
+//     for (let i = 0; i < zodziai.length; i++) {
+//       if (zodziai.includes("e")) {
+//         rezultatas.push(zodziai);
+//       }
+//     }
+//     return rezultatas;
+//   }
+
+//   console.log(["taip", 'ne', 'gerai', 'blogai'])
+
+
+
+//15 parasykite funkciją, kuri ieškotų masyve vienetų ir dvejetų. Pamačiusi vienetą funkcija turi parašyti 'vienas vargas', o suradusi 2, turi parašyti 'du gaideliai'
+
+//   function viensdu(num)
+//   {
+//     for(let i = 0; i < num.length; i++)
+//     {
+//         let atsakymas 
+//         if(num[i]===1)
+//             atsakymas = "vienas vargas";
+//             return atsakymas;
+//         if(num[i]===2)
+//             atsakymas ="du gaideliai";
+//             return atsakymas;
+//     }
+//   }
+
+//   console.log(viensdu([2, 2, 1, 5, 1, 2]));
+
+/*
+String text = "test string";
+char firstSymbol = text[0];
+
+/*
+
+4. Parašykite funkciją, kuri grąžina dviejų skaičių dalybą. 
+5. Parašykite funkciją, kuri grąžina dviejų skaičių vidurkį. 
+6. Parašykite funkciją, kuri patikrina, ar skaičius yra teigiamas. 
+7. Parašykite funkciją, kuri patikrina, ar skaičius yra lyginis. 
+8. Parašykite funkciją, kuri patikrina, ar skaičius yra nelyginis. 
+9. Parašykite funkciją, kuri patikrina, ar skaičius dalijasi iš 5 be liekanos. 
+10. Parašykite funkciją, kuri patikrina, ar skaičius yra lygus 100.
+11. Parašykite funkciją, kuri patikrina, ar skaičius yra didesnis nei 10. 
+12. Parašykite funkciją, kuri grąžina didesnį iš dviejų skaičių. 
+13. Parašykite funkciją, kuri grąžina mažesnį iš dviejų skaičių. 
+14. Parašykite funkciją, kuri patikrina, ar trys skaičiai yra vienodi. 
+15. Parašykite funkciją, kuri patikrina, ar du skaičiai yra lygūs. 
+16. Parašykite funkciją, kuri patikrina, ar skaičius yra tarp 1 ir 10. 
+17. Parašykite funkciją, kuri patikrina, ar skaičius yra tarp 50 ir 100. 
+18. Parašykite funkciją, kuri patikrina, ar skaičius yra neigiamas. 
+19. Parašykite funkciją, kuri grąžina „Teigiamas“ arba „Neigiamas“ priklausomai nuo skaičiaus, kurį nusiunčiate funkcijai. 
+20. Parašykite funkciją, kuri patikrina, ar skaičius yra didesnis nei 18 (pvz., patikrinimas, ar žmogus pilnametis). 
+21. Parašykite funkciją, kuri patikrina, ar perduotas žodis yra „labas“. 
+22. Parašykite funkciją, kuri patikrina, ar žodis yra ilgesnis nei 5 simboliai. 
+23. Parašykite funkciją, kuri grąžina pirmąją perduoto žodžio raidę. 
+24. Parašykite funkciją, kuri grąžina paskutinę perduoto žodžio raidę. 
+25. Parašykite funkciją, kuri patikrina, ar žodis prasideda raide „A“. 
+26. Parašykite funkciją, kuri grąžina žodžio ilgį. 
+27. Parašykite funkciją, kuri grąžina „Ilgas“ arba „Trumpas“, priklausomai nuo žodžio ilgio. Ilgas žodis yra 7 simbolių ilgio arba didesnis, o trumpas yra 6 simbolių ilgio arba trumpesnis 
+28. Parašykite funkciją, kuri patikrina, ar du žodžiai yra vienodi. 
+29. Parašykite funkciją, kuri grąžina „Diena“ arba „Naktis“, priklausomai nuo perduotos valandos (0–23). 
+30. Parašykite vieną funkciją, kuri patikrina skaičiaus vertę, ir jęi: 
+a. Skaičius yra teigiamas, išveda į console ‘esu teigiamas’ 
+b. Skaičius yra neigiamas, išveda į console ‘esu neigiamas’ 
+c. Skaičius yra nulis, išveda į console ‘esu nulis’ 
+d. Skaičius yra didesnis už 100, išveda ‘didžiulis skaičius’ 
+e. Jei skaičius nėra didesnis už 100, išveda ‘esu mažiukas */
+
+
+/*
+1. Parašykite funkciją, kuri išvestų skaičiaus faktorialą 
+2. Parašykite funkciją, kuri apskaičiuotų kiek kartų tam tikra raidė pasikartojo žodyje arba 
+sakinyje 
+
+
+4. Parašykite funkciją, kuri patikrintų ar duotas žodis yra palindromas 
+5. Parašyk funkciją, kuri suskaičiuoja kiek balsių yra žodyje 
+6. Sukurk funkciją, kuri visus tarpus tekste pakeičia pabraukimais (underscore) 
+7. Sukurk funkciją, kuri padvigubina visus skaičius masyve 
+8. Sukurk funkciją, kuri suranda ilgiausią žodį sakinyje 
+9. Funkcija, kuri išrikiuoja žodžius pagal ilgį didėjančia tvarka 
+10. Funkcija, kuri grąžina pirmą skaičių masyve, kuris dalinasi iš 7 
+11. Funkcija, kuri priima masyvą vardų ir grąžina tik tuos, kurie prasideda „A“ raide 
+12. Funkcija, kuri turi sąraše rasti skaičių, kuris jame kartojasi daugiau nei vieną kartą 
+13. Sukurk funkciją, kuri grąžins visus duoto sąrašo skaičius, kurie yra tarp dviejų nurodytų 
+reikšmių ([2, 5, 36, 8, 15, 6] masyvui nurodžius 5 20 intervalą, bus grąžinama [5, 8, 15, 
+6] ) 
+14. Parašykite funkciją, kuri iš žodžių sąrašo išrinktų ir grąžintų tik tuos žodžius, kuriuose 
+yra raidė e
+*/  
+
+/*
+5. Patikrinkite, ar kuris nors skaičius sąraše yra neigiamas.
+a. Pavyzdys: Patikrinkite, ar kuris nors skaičius sąraše [3, 5, -2] yra neigiamas.
+
+*/ /*
+console.log('--8888--');
+
+
+
+let ski = [3, 5, -3] 
+function minusinis(r) {
+
+let hasNegative = (r => r < 0)
+
+for (hasNegative.i=0; i<r.length; i++)
+if (r[i]<0) 
+  return true 
+else return false
+} 
+       
+       console.log(minusinis(ski
+       ));
+
+
+
+
+/* 15 parasykite funkciją, kuri ieškotų masyve vienetų ir dvejetų. Pamačiusi vienetą funkcija turi parašyti 'vienas vargas', o suradusi 2, turi parašyti 'du gaideliai'
+
+//   function viensdu(num)
+//   {
+//     for(let i = 0; i < num.length; i++)
+//     {
+//         let atsakymas 
+//         if(num[i]===1)
+//             atsakymas = "vienas vargas";
+//             return atsakymas;
+//         if(num[i]===2)
+//             atsakymas ="du gaideliai";
+//             return atsakymas;
+//     }
+//   }
+
+//   console.log(viensdu([2, 2, 1, 5, 1, 2]))*/
+
+/*
+
+let arr = [12, 34, 13, -1, -4, 45, -55, -66];
+
+for (let i = 0; i < arr.length; i++) {
+if (arr[i] < 0) console.log(true); else return (false);
+
+}  */
+
+
+console.log('--5--');
+
+
+let arr = [12, 34, 13, -1, -4, 45, -55, -66];
+
+// For loop to print negative numbers
+
+for (let i = 0; i < arr.length; i++) 
+
+{
+if (arr[i] < 0) console.log(true); else console.log( false);
+ 
+         
+
+} 
 
 
 
@@ -1366,4 +1810,272 @@ for ( i of textu) {
         symbols[i] = 1;
     }
 }
+console.log(symbols); *
+
+
+/*
+    public static void main(String args[]){
+        String string = ("You are awesome honey");
+        for (int i = 0 ; i<string.length() ; i++)
+        if (string.charAt(i) == 'o')
+        System.out.println(i);...
+
+
+
+
+
+
+
+       /*
+
+    public class LetterCounter {
+        public static void main(String[] args) {
+            String inputString = "Hello, World!";
+            char targetLetter = 'o';
+            
+            int count = 0;
+            List<Integer> positions = new ArrayList<>();
+            
+            for (int i = 0; i < inputString.length(); i++) {
+                if (inputString.charAt(i) == targetLetter) {
+                    count++;
+                    ;
+                }
+            }
+            
+            System.out.println("The letter '" + targetLetter + "' appears " + count + " times.");
+            System.out.println("Positions: " + positions);
+        }
+    }
+
+
+/*
+
+
+    public static void showLetterPositions(String str) {
+        for (int i = 0; i < str.length(); i++) {
+            char letter = str.charAt(i);
+            int position = i + 1; // Position is 1-based
+            System.out.println("Letter: " + letter + " Position: " + position);
+        }
+    }
+}
+
+
+
+
+
+/*
+let commas = 0;
+for( i = 0; i < helloWorld.length(); i++) {
+  if(helloWorld.charAt(i) == ',') commas++;
+}
+System.out.println(helloWorld + " has " + commas + " commas!");...
+
+
+
+
+
+
+
+/*
+console.log(zo[0]);
+
+const text= 'pomidoras'; 
+console.log(text[0]); 
+console.log([text.length -1]); 
+
+
+
+
+const textu = 'papajus';
+const symbols = [];
+
+for ( i of textu) {
+    if (symbols[i]) {
+        symbols[i]++;
+    } else {
+        symbols[i] = 1;
+    }
+}
 console.log(symbols); */
+
+
+const ars = [2,3,6,8,4,5,7,9,10]
+const ars2 =[2,8,6,7,4,5,7,8,9]
+
+   for  (i=0; i<ars.length; i++) {
+    let element = ars[i] + ars2[i];
+    
+    console.log(element);
+   }
+
+
+
+/*
+   let ski = [3, 5, -3] 
+function minusinis(r) {
+
+let hasNegative = (r => r < 0)
+
+for (hasNegative.i=0; i<r.length; i++)
+if (r[i]<0) 
+  return true 
+else return false
+} 
+       
+       console.log(minusinis(ski
+       ));
+*/
+console.clear()
+console.clear()
+
+console.log('---31---');
+
+let day =  [1,1,1,1,1,1,1]
+let arry = [1,1,1,1,1,1,1]
+let sumasx = 0
+let elemen = 0
+
+for (let i = 0; i < 2; i++) {
+    for ( n = 0; n < arry.length; n++) {
+        
+        
+  elemen += arry[n]+day[i];
+  console.log('---36---');
+  
+   console.log(arry[n]);
+   
+   
+     
+}
+    } console.log(elemen) 
+  
+  
+
+    
+   
+
+
+    console.log('---33---');
+let element =0
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i = 0; i <=array.length; i++) {
+    
+    console.log('---0---');
+   
+}
+
+
+//● Parašykite funkciją, kuri grąžina visų sveikų skaičių nuo 1 iki n kvadratų sumą.
+const kvadrat = [1,2,3,4,5,6,7,8,9,10]
+let kvsum = 0 
+
+for (let i = 0; i < kvadrat.length; i++) { 
+    kvsum += kvadrat[i] ** 2; 
+    console.log(kvadrat[i] ** 2);
+} console.log(kvsum);
+
+/* Parašykite funkciją, kuri patikrina, ar du žodžiai yra anagramos.* */
+
+const anagram = (word1, word2) => {
+    const sortedWord1 = word1.toLowerCase().split('').sort().join('');
+    const sortedWord2 = word2.toLowerCase().split('').sort().join('');
+    return sortedWord1 === sortedWord2;
+}
+console.log(anagram('Listen', 'silent')); 
+console.log(anagram('savi', 'siva'));
+console.log(anagram('Hello', 'World'));
+
+
+
+
+/* ● Parašykite funkciją, kuri pašalina dublikatus iš masyvo. */
+const arrys = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5];
+
+const removeDuplicates = (arrys) => { 
+    return [...new Set(arrys)];
+}
+
+console.log(removeDuplicates(arrys)); // [1, 2, 3, 4, 5]
+
+
+const artte = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5];
+
+function removeDuplicates() {
+    const uniqueArray = []; 
+    for (let i = 0; i < uniqueArray.length; i++) {
+        if (!uniqueArray.includes(uniqueArray[i])) {
+            uniqueArray.push(uniqueArray[i]);
+        }
+    }
+}
+console.log(removeDuplicates(artte)); // [1, 2, 3, 4, 5]
+
+
+
+/*● Parašykite funkciją, kuri grąžina pirmą pasikartojantį elementą masyve. */ 
+
+
+
+
+
+
+
+const t2 = 'kultivatorius' 
+const t2Parts = t2.split('') 
+console.log(t2Parts);
+
+const Parts3 = t2Parts.join('')
+console.log(Parts3);
+
+ 
+/*
+/* ●  
+
+● Parašykite funkciją, kuri patikrina, ar skaičius yra pirminis. 
+/* Parašykite funkciją, kuri patikrina, ar du žodžiai yra anagramos. */
+/*
+● Parašykite funkciją, kuri grąžina skaičiaus faktorialą. 
+● Parašykite funkciją, kuri patikrina, ar žodis yra palindromas (skaitomas vienodai iš 
+abiejų pusių). 
+● Parašykite funkciją, kuri grąžina dažniausiai pasikartojantį elementą masyve. 
+● Parašykite funkciją, kuri grąžina n-tą Fibonacci sekos narį. 
+● Parašykite funkciją, kuri sukeičia kiekvieną gretimą masyvo porą (jeigu pora 
+neegzistuoja, paskutinis lieka nepakitęs). Pvz: masyvo [1234] elementai turėtų pasikeisti 
+į [2143] 
+● Parašykite funkciją, kuri grąžina masyvą tik su lyginiais skaičiais. 
+● Parašykite funkciją, kuri grąžina didžiausią skaičių masyve. 
+● Parašykite funkciją, kuri apskaičiuoja vidurkį masyvo elementų. 
+● Parašykite funkciją, kuri grąžina masyvą, kuriame kiekvienas elementas yra 
+padaugintas iš 2. 
+● Parašykite funkciją, kuri iš duoto teksto paverčia pirmą raidę kiekviename žodyje į 
+didžiąją. 
+● Parašykite funkciją, kuri suskaičiuoja balsių kiekį tekste. 
+● Parašykite funkciją, kuri apverčia masyvą nenaudodama .reverse(). 
+● Parašykite funkciją, kuri patikrina, ar masyvas yra simetriškas (vienodas iš abiejų galų). 
+● Parašykite funkciją, kuri sukuria atsitiktinį sveiką skaičių tarp min ir max (imtinai). 
+● Parašykite funkciją, kuri patikrina, ar visi masyvo elementai yra unikalūs. 
+● Parašykite funkciją, kuri grąžina true, jei masyvas yra nuolat didėjantis. Pvz: masyvas 
+[1 4 6] bus true, o masyvas [ 1 2 4 1] bus false 
+● Parašykite funkciją, kuri grąžina žodžių kiekį sakinyje. 
+● Parašykite funkciją, kuri surūšiuoja masyvą mažėjančia tvarka. 
+● Parašykite funkciją, kuri pakeičia visus simbolius string'e į žvaigždutes, išskyrus 
+paskutinius 4. 
+● Parašykite funkciją, kuri apskaičiuoja skirtumą tarp dviejų datų dienomis. 
+● Parašykite funkciją, kuri konvertuoja pirmąją raidę į mažąją, jei ji buvo didžioji. 
+● Parašykite funkciją, kuri suskaičiuoja, kiek duotame tekste žodžių yra bent 5 simbolių 
+ilgio. 
+● Parašykite funkciją, kuri grąžina visus skaičius nuo start iki end kaip masyvą. 
+● Parašykite funkciją, kuri randa antrą didžiausią skaičių masyve. 
+● Parašykite funkciją, kuri paverčia sekundes į formatą hh:mm:ss. 
+● Parašykite funkciją, kuri skaičiuoja, kiek kartų duotas simbolis pasikartoja string'e. 
+● Parašykite funkciją, kuri iš objektų masyvo išfiltruoja tik tuos, kurių reikšmė aktyvus: 
+true. 
+● Parašykite funkciją, kuri sugrąžina true, jei masyve yra bent viena neigiama reikšmė. 
+● Parašykite funkciją, kuri konvertuoja tekstą į „slug“ formą: mažosios raidės ir - vietoj 
+tarpų. 
+● Parašykite funkciją, kuri patikrina, ar string'as baigiasi nurodytu tekstu. 
+● Parašykite funkciją, kuri apskaičiuoja visų teigiamų skaičių sumą masyve. 
+
+*/

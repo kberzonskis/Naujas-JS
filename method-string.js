@@ -19,6 +19,7 @@ console.log(text[0]);
 console.log([text.length -1]); 
 
 
+console.log('------At-----');
 console.log('--', text.at(0))
 console.log('--', text.at(1))
 console.log('--', text.at(2))
@@ -31,6 +32,7 @@ console.log('--', text.at(-4))
 
 
 // includes 
+console.log('--------includes---');
 
 console.log('Vasara'. includes('V'))
 console.log('Vasara'. includes('s'))
@@ -51,9 +53,11 @@ console.log('Pomidoras'.endsWith('a'))
 console.log('Pomidoras'.endsWith('s'))
 
 
-console.log('-----indexOF');
+
 
 // indexOF 
+console.log('------indexOF---');
+
 
 console.log('Pomidoras'.indexOf('a'))
 console.log('Pomidoras'.indexOf('P'))
@@ -67,11 +71,13 @@ console.log((`---- su minusu reiskia nera--`));
 console.log('-----Randa raides vietos skaiciu');
 
 console.log('Pomidoras'.indexOf('o',1))
-console.log('Pomidoras'.indexOf('o',2))
+console.log('Pomidoraos'.indexOf('o',2,))
+
 
 
 
 // repeat 
+console.log('-----repeat---');
 
 console.log('a');
 console.log('aaaaaaaaaaaaaaaaa');
@@ -82,7 +88,9 @@ console.log(symbol)
 console.log(megaSymbol)
 
 
-// replace 
+// replace  
+console.log('-----replace---');
+
 
 const summer = 'vasara'.replace('a','-') 
 console.log(summer) 
@@ -100,10 +108,18 @@ console.log(cloudys
 );
 
 
+
+
 // to Uppercase 
+console.log("-----toUpperCase---");
+
 console.log('labas'.toUpperCase());
 
 console.log('LABAS, 8G8G5T'.toLowerCase());
+
+
+console.log("--slice---");
+
 
 // slice 
 console.log('pomidoras'.slice());
@@ -115,14 +131,25 @@ console.log('pomidoras'.slice(-2));
 console.log('pomidoras'.slice(0,-2));
 
 // trim 
+console.log("-----trim---");
+
 
 console.log(`"${'pomidoras'.trim()}"`);  
 console.log(`"${'pomidoras            '.trim()}"`);  
 console.log(`"${'     pomidoras        '.trim()}"`);  
+
+console.log("-----trimEnd---");
+
 console.log(`"${'     pomidoras        '.trimEnd()}"`);  
-console.log(`"${'     pomidoras        '.trimStart()}"`);  
+
+console.log("-----trimStart---")
+;console.log(`"${'     pomidoras        '.trimStart()}"`);  
 
 // split 
+
+console.log("-----split---");
+
+
 
 const t1 = "zodis"; 
 const t1Parts = t1.split()
